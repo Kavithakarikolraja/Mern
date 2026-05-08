@@ -1,0 +1,31 @@
+
+DAY 1 - 07-05-2026
+
+1 -> frontend deploy - vercel
+2 -> backend deploy - render
+3 -> Database MongoDB Atlas
+4 -> GitHub Development pack
+5 -> Dev.to blogging website
+6 -> ide - integrated development environment
+7 -> node install
+  -> verify command prompt
+          . node -v
+ 	  . nmp -v
+8 -> use vite package for react
+   c :  npm install -g  create-vite
+    -- g stands for global that everyone on system can use 
+   c : npm create vite@latest my-react-app -- --template react
+    open the link provided
+* package json important for running npm
+ c :  npm install
+ c : npm run dev
+
+ -- create table in app.jsx
+ -- style in app.css / index.css
+
+ 9 -> MongoDB compass
+
+ 10 -> server.js creation
+
+   process detection - Get-Process -Id (Get-NetTCPConnection -LocalPort 4000).OwningProcess
+   Kill process - Stop-Process -Id (Get-NetTCPConnection -LocalPort 4000).OwningProcess -Force
