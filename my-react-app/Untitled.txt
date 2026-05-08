@@ -29,3 +29,7 @@ DAY 1 - 07-05-2026
 
    process detection - Get-Process -Id (Get-NetTCPConnection -LocalPort 4000).OwningProcess
    Kill process - Stop-Process -Id (Get-NetTCPConnection -LocalPort 4000).OwningProcess -Force
+
+11 - create my app for espress value
+  -> npm init -y
+  
